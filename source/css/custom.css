@@ -1,0 +1,218 @@
+/* 页脚与头图透明 */
+#footer {
+  background: transparent !important;
+}
+#page-header {
+  background: transparent !important;
+}
+
+/* 白天模式遮罩透明 */
+#footer::before {
+  background: transparent !important;
+}
+#page-header::before {
+  background: transparent !important;
+}
+
+/* 夜间模式遮罩透明 */
+[data-theme="dark"] #footer::before {
+  background: transparent !important;
+}
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
+}
+
+
+/* 一级菜单居中 */
+#nav .menus_items {
+  position: absolute !important;
+  width: fit-content !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+/* 子菜单横向展示 */
+#nav .menus_items .menus_item:hover .menus_item_child {
+  display: flex !important;
+}
+/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
+.menus_items .menus_item_child {
+  left: -90px;
+}
+
+/* 自定义字体 */
+@font-face {
+  /* 为载入的字体取名字(随意) */
+  font-family: 'WAWWWSXT';	
+  /* 字体文件地址(相对或者绝对路径都可以) */
+  src: url(/fonts/我爱万伟伟手写体.woff2);
+  /* 定义加粗样式(加粗多少) */
+  font-weight: Black;
+  /* 定义字体样式(斜体/非斜体) */
+  font-style: normal;
+  /* 定义显示样式 */
+  font-display: block;
+}
+
+/* 自定义图标默认大小和颜色等属性 */
+.iconfont {
+  font-family: "iconfont" !important;
+  /* 这里可以自定义图标大小 */
+  font-size: 3em;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+svg.icon {
+  width: 1.28em;
+  height: 1.28em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+
+#nav a:hover {
+  background: var(--anzhiyu-main);
+  transition: 0.3s;
+}
+
+#nav-totop:hover .totopbtn i {
+  opacity: 1;
+}
+#nav-totop #percent {
+  font-size: 12px;
+  background: var(--anzhiyu-white);
+  color: var(--anzhiyu-main);
+  width: 25px;
+  height: 25px;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.nav-fixed #nav-totop #percent,
+.page #nav-totop #percent {
+  background: var(--font-color);
+  color: var(--card-bg);
+  font-size: 13px;
+}
+
+#nav-totop {
+  width: 35px;
+}
+#page-header:not(.is-top-bar) #percent {
+  transition: 0.3s;
+}
+#page-header:not(.is-top-bar) #nav-totop {
+  width: 0;
+  opacity: 0;
+  transition: width 0.3s, opacity 0.2s;
+  margin-left: 0 !important;
+}
+#nav-totop #percent {
+  font-weight: 700;
+}
+#nav-totop:hover #percent {
+  opacity: 0;
+  transform: scale(1.5);
+  font-weight: 700;
+}
+#page-header #nav #nav-right div {
+  margin-left: 0.5rem;
+  padding: 0;
+}
+
+#nav-totop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.nav-button {
+  cursor: pointer;
+}
+div#menus {
+  display: flex;
+  align-items: center;
+}
+#page-header #nav .nav-button a {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav .site-page {
+  padding-bottom: 0px;
+}
+#nav *::after {
+  background-color: transparent !important;
+}
+
+/* 顶栏修改 */
+#nav .menus_items .menus_item .menus_item_child li a {
+  padding: 2px 16px;
+}
+#nav .menus_items .menus_item .menus_item_child li:hover a {
+  color: white !important;
+}
+
+#nav .menus_items .menus_item .menus_item_child li {
+  margin: 6px;
+  border-radius: 5px;
+  transition: all 0.3s;
+  display: inline-block;
+  margin: 0 3px;
+}
+#nav .menus_items .menus_item .menus_item_child:before {
+  top: -19px;
+}
+#site-name,
+.shuoshuo {
+  white-space: nowrap;
+  overflow: hidden;
+}
+#site-name {
+  padding: 0 8px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+#blog_name #site-name i {
+  opacity: 0;
+  position: absolute;
+}
+
+#blog_name #site-name:hover .title {
+  opacity: 0;
+}
+
+#blog_name #site-name:hover i {
+  opacity: 1;
+  transform: scale(1.01);
+  color: white;
+}
+/* 圆角隐藏 */
+ul.menus_item_child {
+  border-radius: 5px;
+}
+
+/* 一级菜单居中 */
+#nav .menus_items {
+  position: absolute;
+  width: fit-content;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+

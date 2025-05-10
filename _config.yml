@@ -1,0 +1,201 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: RICH🥝梵の刹
+subtitle: 学习の分享
+description: 'Future is rich 🍭🍭🍭'
+keywords: 'Java,MySQL,算法,代码,博客,Butterfly,Hexo,Fomalhaut🥝,Fomalhaut,rich,fan,richfan,梵刹,樊刹,python,flask,butterfly'
+author: Rich🥝
+language: zh-CN
+timezone: 'Asia/Shanghai'
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: http://example.com
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+# tag-plugins-plus
+# see https://akilar.top/posts/615e2dec/
+tag_plugins:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  issues: false #issues标签开关
+  link:
+    placeholder: /img/link.png #link_card标签默认的图标图片
+  CDN:
+    anima: /css/font-awesome-animation.min.css #动画标签anima的依赖
+    jquery: /js/jquery.min.js #issues标签依赖
+    issues: /js/issues.js #issues标签依赖
+    iconfont: //at.alicdn.com/t/c/font_4915201_kalfvdnknwa.js #参看https://akilar.top/posts/d2ebecef/
+    carousel: /js/carousel-touch.js
+    tag_plugins_css: /css/tag_plugins.css
+    ghcard_url: https://github-readme-stats.vercel.app #API仓库https://github.com/anuraghazra/github-readme-stats
+
+wowjs:
+  enable: true #控制动画开关。true是打开，false是关闭
+  priority: 10 #过滤器优先级
+  mobile: false #移动端是否启用，默认移动端禁用
+  animateitem:
+    - class: recent-post-item #必填项，需要添加动画的元素的class
+      style: animate__zoomIn #必填项，需要添加的动画
+      duration: 2s #选填项，动画持续时间，单位可以是ms也可以是s。例如3s，700ms。
+      delay: 1s #选填项，动画开始的延迟时间，单位可以是ms也可以是s。例如3s，700ms。
+      offset: 100 #选填项，开始动画的距离（相对浏览器底部）
+      iteration: 2 #选填项，动画重复的次数
+    - class: card-widget
+      style: animate__zoomIn
+  animate_css: /css/animate.min.css
+  wow_js: /js/wow.min.js
+  wow_init_js: /js/wow_init.js
+
+plugins:
+  - hexo-algoliasearch
+# hexo-algoliasearch(可以匹配内容)
+algolia:
+  appId: "FTZP2J6FCQ"
+  apiKey: "e45ee8cb7e57f59fdfc446a93c960064"
+  adminApiKey: "9cbc92febdae304c2e2c1e0f5610027b"
+  chunkSize: 
+  indexName: "hexo-butterfly"
+  fields:
+    - content:strip:truncate,0,500
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
+
+# hexo-butterfly-categories-card
+# see https://akilar.top/posts/a9131002/
+categoryBar:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: / # 应用页面
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 0
+  column: odd # odd：3列 | even：4列
+  row: 1 #显示行数，默认两行，超过行数切换为滚动显示
+  message:
+    - descr: Ubuntu指南
+      cover: https://assets.akilar.top/image/cover1.webp
+    - descr: 玩转Win10
+      cover: https://assets.akilar.top/image/cover2.webp
+    - descr: 长篇小说连载
+      cover: https://assets.akilar.top/image/cover3.webp
+    - descr: 个人日记
+      cover: https://assets.akilar.top/image/cover4.webp
+    - descr: 诗词歌赋
+      cover: https://assets.akilar.top/image/cover5.webp
+    - descr: 杂谈教程
+      cover: https://assets.akilar.top/image/cover6.webp
+  custom_css: /css/categorybar.css
+
+# hexo-butterfly-swiper
+# see https://akilar.top/posts/8e1264d1/
+swiper:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  timemode: date #date/updated
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 0
+  default_descr: 再怎么看我也不知道怎么描述它的啦！
+  swiper_css: /css/swiper.min.css #swiper css依赖
+  swiper_js: /js/swiper.min.js #swiper js依赖
+  custom_css: /css/swiperstyle.css # 适配主题样式补丁
+  custom_js: /js/swiper_init.js # swiper初始化方法
+
+## Themes: https://hexo.io/themes/
+theme: butterfly
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: ''
