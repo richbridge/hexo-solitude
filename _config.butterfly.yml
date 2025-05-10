@@ -837,8 +837,8 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work
 font:
-  global_font_size: 1em
-  code_font_size: 0.8em
+  global_font_size: 
+  code_font_size: 
   font_family: WAWWWSXT
   code_font_family: WAWWWSXT
 
