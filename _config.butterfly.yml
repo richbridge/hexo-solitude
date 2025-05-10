@@ -122,11 +122,13 @@ cover:
   # When cover is not set, the default cover is displayed
   default_cover:
      - https://cdn.seovx.com/ha/?mom=302
-     - https://cdn.seovx.com/ha/?mom=302
-     - https://cdn.seovx.com/ha/?mom=302
-     - https://cdn.seovx.com/ha/?mom=302
-     - https://cdn.seovx.com/ha/?mom=302
-     - https://cdn.seovx.com/ha/?mom=302
+     - https://t.alcy.cc/fj
+     - https://imgapi.xl0408.top/index.php
+     - https://rpic.origz.com/api.php?category=ai
+     - https://t.alcy.cc/ai
+     - https://t.alcy.cc/fj
+     - https://imgapi.xl0408.top
+
 
 # Replace Broken Images
 error_img:
@@ -551,7 +553,7 @@ comments:
   # Leave it empty if you don't need comments
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # Format of two comments system : Disqus,Waline
-  use:
+  use: Valine
   # Display the comment name next to the button
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -594,8 +596,8 @@ gitalk:
 # Valine
 # https://valine.js.org
 valine:
-  appId:
-  appKey:
+  appId: HSyJnxWh6xgOW5tISuT03C4U-gzGzoHsz
+  appKey: VenFYCgU7sCSQBGy3MVBFBOK
   avatar: monsterid
   # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   serverURLs:
