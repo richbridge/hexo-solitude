@@ -71,9 +71,13 @@ svg.icon {
   overflow: hidden;
 }
 
+#nav {
+  background: transparent !important;
+  transition: 0.3s;
+}
 
 #nav a:hover {
-  background: var(--anzhiyu-main);
+  background: transparent !important;
   transition: 0.3s;
 }
 
@@ -82,8 +86,8 @@ svg.icon {
 }
 #nav-totop #percent {
   font-size: 12px;
-  background: var(--anzhiyu-white);
-  color: var(--anzhiyu-main);
+  background: transparent !important;
+  color: transparent !important;
   width: 25px;
   height: 25px;
   border-radius: 35px;
@@ -94,8 +98,8 @@ svg.icon {
 }
 .nav-fixed #nav-totop #percent,
 .page #nav-totop #percent {
-  background: var(--font-color);
-  color: var(--card-bg);
+  background: transparent !important;
+  color: rgb(255, 255, 255, 0);
   font-size: 13px;
 }
 
