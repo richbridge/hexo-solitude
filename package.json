@@ -15,6 +15,7 @@
     "hexo": "^7.3.0",
     "hexo-algoliasearch": "^2.0.1",
     "hexo-bilibili-bangumi": "^1.11.1",
+    "hexo-butterfly-artitalk": "^1.0.5",
     "hexo-butterfly-tag-plugins-plus": "^1.0.18",
     "hexo-butterfly-wowjs": "^1.0.5",
     "hexo-douban": "^2.3.6",

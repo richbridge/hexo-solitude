@@ -131,6 +131,19 @@ algolia:
     - tags
     - title
 
+  # Artitalk
+  # see https://artitalk.js.org/
+  artitalk:
+    enable: true
+    appId: yXUtYidgfojjSwa6aQvAoqiC-MdYXbMMI
+    appKey: lFV9G9n6qh1b3Mqmjhr5gTQX
+    path:
+    js:
+    option: 
+      color1: 'linear-gradient(60deg, #ffd7e4 0, #c8f1ff 93%)'  # 说说背景色1（默认是橙色）
+      color2: 'linear-gradient(60deg, #ffd7e4 0, #c8f1ff 93%)'  # 说说背景色2（默认是绿色）
+      color3: '#4c4948'  # 说说文字内容颜色（默认是白色）
+
 douban:
   id: 162448367
   book:
