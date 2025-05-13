@@ -17,31 +17,31 @@ nav:
   fixed: false
 
 menu:
-  首页: / || icon-home1 || faa-tada
-  文章 || icon--article || faa-tada || hide:
-    归档: /archives/ || icon-guidang || faa-tada
-    标签: /tags/ || icon-sekuaibiaoqian || faa-tada
-    分类: /categories/ || icon-fenlei1 || faa-tada
-  休闲 || icon-pinweishenghuo || faa-tada || hide:
-    八音盒: /life/music/ || icon-a-074_yinle-16 || faa-tada
-    影院: /life/movies/ || icon-dianying_1 || faa-tada
-    游戏: /life/games/ || icon-youxishoubing1 || faa-tada
-  八宝箱 || icon-xiangzi || faa-tada || hide:
-    画廊: /box/gallery/ ||icon-tubiaozhizuomoban || faa-tada
-    动画: /box/animation/ || icon-nvwumaowanshengjie || faa-tada
-    网址导航: /box/nav/ || icon-zhifengche || faa-tada
-  社交 || icon-zuji || faa-tada || hide:
-    朋友圈: /social/fcircle/ || icon-iconfontzhizuobiaozhunbduan36 || faa-tada
-    留言板: /comments/ || icon-liuyanmoban || faa-tada
-    友人帐: /social/link/ || icon-lianjie || faa-tada
-  网站 || icon-wangye || faa-tada || hide:
-    网站统计: /site/census/ || icon--tongjibiao || faa-tada
-    文章统计: /site/echarts/ || icon-shujutongji-1 || faa-tada
-    旧时光: /site/time/ || icon-xianxingshaloutubiao || faa-tada
-  个人 || icon-maoliang || faa-tada || hide:
-    唠叨: /personal/bb/ || icon-qunliaotian || faa-tada
-    恋爱小屋: /personal/love/ || icon-love-sign || faa-tada
-    关于: /personal/about/ || icon-paper-plane || faa-tada
+  首页: / || fas fa-home
+  文章 || fas fa-book-open:
+    归档: /archives/ || fas fa-archive
+    标签: /tags/ || fas fa-tag
+    分类: /categories/ || fas fa-folder-open
+  休闲 || fas fa-heart-pulse:
+    八音盒: /life/music/ || fas fa-music
+    影院: /life/movies/ || fas fa-video
+    游戏: /life/games/ || fas fa-gamepad
+  八宝箱 || fas fa-box:
+    画廊: /box/gallery/ || fas fa-palette
+    动画: /box/animation/ || fas fa-radiation
+    网址导航: /box/nav/ || fas fa-star # fas fa-list
+  社交 || fas fa-square-share-nodes:
+    朋友圈: /social/fcircle/ || fas fa-user-friends
+    留言板: /comments/ || fas fa-message
+    友人帐: /social/link/ || fas fa-link
+  网站 || fas fa-blog:
+    网站统计: /site/census/ || fas fa-sitemap
+    文章统计: /site/echarts/ || fas fa-chart-area # fas fa-chart-bar
+    旧时光: /site/time/ || fas fa-dna
+  个人 || fas fa-person:
+    唠叨: /personal/bb/ || fas fa-laptop # fas fa-teeth-open
+    恋爱小屋: /personal/love/ || fas fa-heart
+    关于: /personal/about/ || fas fa-address-card
 
 # --------------------------------------
 # Code Blocks Settings
@@ -197,7 +197,7 @@ subtitle:
 # 5: Info displayed on the cover
 # 6: Masonry layout - Cover on top, info on the bottom
 # 7: Masonry layout - Info displayed on the cover
-index_layout: 3
+index_layout: 7
 
 # Display the article introduction on homepage
 # 1: description
@@ -1065,9 +1065,8 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
-    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4915201_9z9gc52jeuw.css" media="defer" onload="this.media='all'">
   bottom:
-    - <script async src="//at.alicdn.com/t/c/font_4915201_9z9gc52jeuw.js"></script>
+    # - <script async src="//at.alicdn.com/t/c/font_4915201_9z9gc52jeuw.js"></script>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work

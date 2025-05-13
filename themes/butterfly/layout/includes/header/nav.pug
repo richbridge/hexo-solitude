@@ -12,10 +12,8 @@ nav#nav
     if theme.search.use
       #search-button
         span.site-page.social-icon.search
-          //- i.fas.fa-search.fa-fw
-          //- span= ' ' + _p('search.title')
-          svg.faa-tada.icon(style="height:24px;width:24px;fill:currentColor;position:relative;top:6px" aria-hidden="true")
-            use(xlink:href='#icon-valentine_-search-love-find-heart')
+          i.fas.fa-search.fa-fw
+          span= ' ' + _p('search.title')
     if theme.menu
       != partial('includes/header/menu_item', {}, {cache: true})
 
