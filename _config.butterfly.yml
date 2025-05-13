@@ -18,29 +18,35 @@ nav:
 
 menu:
   首页: / || fas fa-home
-  文章 || fas fa-book-open:
+  文章 || fas fa-book-open||hide:
     归档: /archives/ || fas fa-archive
     标签: /tags/ || fas fa-tag
     分类: /categories/ || fas fa-folder-open
-  休闲 || fas fa-heart-pulse:
-    八音盒: /life/music/ || fas fa-music
+  休闲 || fas fa-heart-pulse||hide:
+    音乐: /life/music/ || fas fa-music
     影院: /life/movies/ || fas fa-video
     游戏: /life/games/ || fas fa-gamepad
-  八宝箱 || fas fa-box:
+  八宝箱 || fas fa-box||hide:
     画廊: /box/gallery/ || fas fa-palette
     动画: /box/animation/ || fas fa-radiation
     网址导航: /box/nav/ || fas fa-star # fas fa-list
-  社交 || fas fa-square-share-nodes:
+  社交 || fas fa-square-share-nodes||hide:
     朋友圈: /social/fcircle/ || fas fa-user-friends
     留言板: /comments/ || fas fa-message
     友人帐: /social/link/ || fas fa-link
-  网站 || fas fa-blog:
+  网站 || fas fa-blog||hide:
     网站统计: /site/census/ || fas fa-sitemap
     文章统计: /site/echarts/ || fas fa-chart-area # fas fa-chart-bar
     旧时光: /site/time/ || fas fa-dna
-  个人 || fas fa-person:
+  记录 || fas fa-record-vinyl||hide:
+    追番: /records/bangumi/ || fas fa-b
+    看书: /books/ || fas fa-book
+    观影: /movies/ || fas fa-movies
+    游戏: /games/ || fas fa-gamepad
+    听歌: /songs/ || fas fa-music
+  个人 || fas fa-person||hide:
     唠叨: /personal/bb/ || fas fa-laptop # fas fa-teeth-open
-    恋爱小屋: /personal/love/ || fas fa-heart
+    说说: /personal/shuoshuo/ || fas fa-heart
     关于: /personal/about/ || fas fa-address-card
 
 # --------------------------------------
@@ -1003,7 +1009,7 @@ pjax:
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar - Toast Notification

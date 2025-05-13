@@ -39,3 +39,12 @@ date: 2020-01-01 00:00:00
 {% checkbox 注册安全工程师 %}
 {% checkbox 评估师 %}
 {% checkbox 监理师 %}
+
+
+
+## 博客更新
+
+hexo douban
+hexo bangumi -u
+hexo cinema -u
+hexo game -u
