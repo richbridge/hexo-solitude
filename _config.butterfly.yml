@@ -47,7 +47,7 @@ menu:
   个人 || fas fa-person||hide:
     唠叨: /personal/bb/ || fas fa-laptop # fas fa-teeth-open
     说说: /personal/shuoshuo/ || fas fa-heart
-    说啥: /personal/artitalk/ || fas fa-lightbulb
+    哔哔: /personal/artitalk/ || fas fa-lightbulb
     关于: /personal/about/ || fas fa-address-card
 
 # --------------------------------------
@@ -845,13 +845,13 @@ beautify:
 font:
   global_font_size: 
   code_font_size: 
-  font_family: JNMYT
-  code_font_family: JNMYT
+  font_family: DYH
+  code_font_family: DYH
 
 # Font settings for the site title and site subtitle
 blog_title_font:
   font_link:
-  font_family: JNMYT
+  font_family: DYH
 
 # The setting of divider icon
 hr_icon:
