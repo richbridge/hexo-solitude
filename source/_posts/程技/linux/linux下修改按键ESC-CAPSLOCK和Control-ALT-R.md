@@ -2,6 +2,7 @@
 title: linux下修改按键ESC<=>CAPSLOCK和Control=>ALT_R
 date: 2017-10-20 17:38:49
 type: posts
+cover: https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/thumbnail/audit.png
 categories: [程技]
 tags: ['keybord','vim','emacs','linux']
 ---

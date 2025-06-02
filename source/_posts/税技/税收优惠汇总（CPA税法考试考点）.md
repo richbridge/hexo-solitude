@@ -2,6 +2,7 @@
 title: 税收优惠汇总（CPA税法考试考点）
 date: 2023-07-26 11:12:00
 type: posts
+cover: https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/thumbnail/audit.png
 categories: [税技]
 tags: [税收优惠]
 ---

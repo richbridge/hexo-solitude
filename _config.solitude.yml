@@ -484,7 +484,7 @@ typeit: false
 # Console
 # 控制台
 console:
-  enable: false
+  enable: true
   # Recent comments
   # 最新评论
   recentComment:
@@ -546,7 +546,7 @@ footer:
     #   Copyright: /copyright/
 
   # 随机友链
-  randomlink: false # 随机友链
+  randomlink: true # 随机友链
 
   # 备案
   beian:
@@ -594,7 +594,7 @@ meting_api: "https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth
 # Capsule music
 # 音乐胶囊
 capsule:
-  enable: false
+  enable: true
   # 歌单 ID / 单曲 ID
   id: 5144842535
   # 服务商：netease / qq / xiami / kugou / baidu
