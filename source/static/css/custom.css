@@ -1,0 +1,57 @@
+@font-face {
+  /* 为载入的字体取名字(随意) */
+  font-family: 'DYH';        
+  /* 字体文件地址(相对或者绝对路径都可以) */
+  src: url(/static/fonts/SmileySans-Oblique.otf.woff2);
+  /* 定义加粗样式(加粗多少) */
+  font-weight: Black;
+  /* 定义字体样式(斜体/非斜体) */
+  font-style: normal;
+  /* 定义显示样式 */
+  font-display: block;
+}
+
+/**
+那年今日
+*/
+
+#aside-content .card-history .swiper-wrapper {
+    flex-direction: column
+}
+
+#aside-content .card-history .history_slide {
+    text-align: left;
+    display: flex!important;
+    flex-direction: column;
+    align-items: flex-start
+}
+
+#aside-content .card-history #history-baidu>.blog-slider__pagination {
+    display: none
+}
+
+#aside-content .card-history .history_slide_time {
+    color: var(--ba-secondtext);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: lighter
+}
+
+#aside-content .card-history .history_slide_link {
+    line-height: 1.5;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical
+}
+
+#aside-content .card-history .history_slide_link a {
+    color: var(--ba-main);
+    padding: 0 4px;
+    border-radius: 4px
+}
+
+#aside-content .card-history .history_slide_link a:hover {
+    color: var(--ba-white);
+    background: var(--ba-main)
+}
