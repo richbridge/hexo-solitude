@@ -48,7 +48,7 @@ nav:
       友情链接: /links/ || fas fa-user-group
       宝藏博主: javascript:travelling() || fas fa-gift
     关于:
-      即刻说说: /essay/ || st-chat-fill
+      即刻说说: /essay/ || fas fa-headphones
       我的装备: /equipment/ || fas fa-laptop
       在线工具: /tlink/ || fas fa-toolbox
       音乐馆: /music/ || fas fa-music
