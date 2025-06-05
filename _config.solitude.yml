@@ -122,8 +122,8 @@ aside:
   # Sticky: Fixed position / noSticky: Not fixed position
   # Sticky: 固定位置 / noSticky: 不固定位置
   home: # on the homepage
-    noSticky: "about,calendar,schedule" # noSticky: "about"
-    Sticky: "allInfo,history"
+    noSticky: "about,welcome,calendar,schedule,history" # noSticky: "about"
+    Sticky: "allInfo"
   post: # on the article page
     noSticky: "about"
     Sticky: "newestPost"
@@ -780,6 +780,7 @@ extends:
   - <script src="/static/js/chinese-lunar.js"></script>
   - <script src="/static/js/custom.js"></script>
   - <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+  - <script defer pjax src="/static/js/custom.js"></script>
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------

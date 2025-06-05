@@ -54,3 +54,10 @@ links:
         topimg: https://serv.200038.xyz/2024/11/06/027080.gif # 如果是card模式下，将显示
         tag: 博主
         color: vip
+      - name: 青桔气球 # 友链名称
+        link: https://blog.qjqq.cn/ # 友链地址
+        avatar: https://expression.qjqq.cn/1/65e92ca37b4e6.gif # 显示头像
+        descr: 欢迎来到青桔气球，这是一个专注于网络安全和科技生活分享的网站。在青桔气球上，您可以找到关于WordPress、Hexo、Typecho等平台的详细教程。 # 友链简介
+        topimg: https://expression.qjqq.cn/1/65e92ca37b4e6.gif # 如果是card模式下，将显示
+        tag: 博主
+        color: vip
