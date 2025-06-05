@@ -48,6 +48,7 @@ nav:
       友情链接: /links/ || fas fa-user-group
       宝藏博主: javascript:travelling() || fas fa-gift
     关于:
+      即刻说说: /essay/ || st-chat-fill
       我的装备: /equipment/ || fas fa-laptop
       在线工具: /tlink/ || fas fa-toolbox
       音乐馆: /music/ || fas fa-music
@@ -318,7 +319,7 @@ post:
   covercolor:
     enable: true
     # local: local color / api: api color / ave: oss average color
-    mode: local
+    mode: api
     # api address / api 地址
     api: https://api.qjqq.cn/api/Imgcolor?img=
     # Storage / 缓存时间
@@ -359,10 +360,10 @@ font:
   code-font-size: 16px
   # Global font
   # 全局字体
-  font-family: "DYH, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"
+  font-family: "LXGW WenKai TC, DYH, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"
   # Code font
   # 代码字体
-  code-font-family: 'DYH, "monospace", monospace'
+  code-font-family: 'LXGW WenKai TC, DYH, "monospace", monospace'
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -769,6 +770,8 @@ extends:
     - <link rel="stylesheet" href="/static/css/custom.css">
     - <script src="/static/js/gpt.js"></script>
     - <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css" />
+    # - <link rel="stylesheet" href="https://cdn2.codesign.qq.com/icons/7pOrz0WXB5ZWJPX/latest/iconfont.css">
+    - <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap">
 
   # Insert in body
   # 插入到 body
@@ -799,7 +802,7 @@ pwa:
 comment:
   # Which commenting system to use(e.g. waline or waline,twikoo)
   # 使用哪个评论系统（例如： waline or waline,twikoo）
-  use: twikoo # waline, twikoo, valine, artalk, giscus # Up to two comment systems can be turned on at the same time
+  use: twikoo,valine # waline, twikoo, valine, artalk, giscus # Up to two comment systems can be turned on at the same time
   # Whether to display the hot comment switch.
   # 是否显示热门评论开关
   commentBarrage: false
@@ -928,9 +931,9 @@ envelope:
 # Brevity Page
 # 即可短文
 brevity:
-  enable: false
-  home_mini: false
-  music: false
+  enable: true
+  home_mini: true
+  music: true
   page: /essay/
   style: 1
   strip: 30
@@ -940,7 +943,7 @@ brevity:
 # Recent comments Page
 # 最近评论页面
 recent_comments:
-  enable: false
+  enable: true
   limit: 50 # ⚠️waline 仅支持最大50条评论 / ⚠️waline only supports a maximum of 50 comments
   cache: 0.2 # 1 = 1天 / 1 = 1 day
   page: /recentcomments/ # 最近评论页面 / recent comments page
@@ -990,6 +993,7 @@ CDN:
   custom_format: https://fastly.jsdelivr.net/npm/${name}@${version}/${min_file} # 自定义格式
   # 直接覆盖默认 CDN 链接（优先级最高）
   options:
+    solitude_css: /static/css/iconfont.css
     # algolia_search:
     # aplayer_css:
     # aplayer_js:
