@@ -360,20 +360,20 @@ font:
   code-font-size: 16px
   # Global font
   # 全局字体
-  font-family: "LXGW WenKai TC, DYH, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"
+  font-family: "MMT, LXGW WenKai TC, DYH, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"
   # Code font
   # 代码字体
-  code-font-family: 'LXGW WenKai TC, DYH, "monospace", monospace'
+  code-font-family: 'MMT, LXGW WenKai TC, DYH, "monospace", monospace'
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
 # Background
 # 背景图片
 background:
-  enable: false
+  enable: true
   opacity: .2
-  dark: https://i.pinimg.com/originals/d8/b3/9d/d8b39d12b653810db452c437211aeb2e.png
-  light: https://i.pinimg.com/originals/93/57/38/935738ed9657b296c2ef0ebd2151eb66.jpg
+  dark: /static/img/bg.jpeg
+  light: /static/img/bg.jpeg
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -766,9 +766,7 @@ extends:
   #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
     - <link rel="stylesheet" href="/static/css/schedule.css">
     - <script src="/static/js/schedule.js"></script>
-    - <link rel="stylesheet" href="/static/css/gpt.css">
     - <link rel="stylesheet" href="/static/css/custom.css">
-    - <script src="/static/js/gpt.js"></script>
     - <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css" />
     # - <link rel="stylesheet" href="https://cdn2.codesign.qq.com/icons/7pOrz0WXB5ZWJPX/latest/iconfont.css">
     - <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap">
