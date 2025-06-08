@@ -801,7 +801,7 @@ pwa:
 comment:
   # Which commenting system to use(e.g. waline or waline,twikoo)
   # 使用哪个评论系统（例如： waline or waline,twikoo）
-  use: twikoo,valine # waline, twikoo, valine, artalk, giscus # Up to two comment systems can be turned on at the same time
+  use: giscus # twikoo,valine # waline, twikoo, valine, artalk, giscus # Up to two comment systems can be turned on at the same time
   # Whether to display the hot comment switch.
   # 是否显示热门评论开关
   commentBarrage: false
@@ -859,9 +859,9 @@ artalk:
   option: # options
 # Giscus: https://solitude.js.org/comment/giscus
 giscus:
-  repo: # GitHub repository name
-  repo_id: # GitHub repository ID
-  category_id: # GitHub repository category ID
+  repo: richbridge/hexo-solitude # GitHub repository name
+  repo_id: R_kgDOOmVrzQ # GitHub repository ID
+  category_id: DIC_kwDOOmVrzc4CrLVI # GitHub repository category ID
   theme:
     light: light
     dark: dark
