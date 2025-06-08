@@ -515,8 +515,8 @@ translate:
 # Right-Sidebar
 # 右下角悬停导航栏
 rightside:
-  enable: false
-  percent: false
+  enable: true
+  percent: true
   hide:
     enable: false
     translate: false
