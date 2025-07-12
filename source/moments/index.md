@@ -1,27 +1,22 @@
 ---
 title: 朋友圈
 date: 2020-01-01 00:00:00
+cover: https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/logo/bg.avif
 type: moments
 comments: false
 ---
 
-
-<div id="friend-circle-lite-root"></div>
+<div id="app"></div>
 <script>
-    if (typeof UserConfig === 'undefined') {
-        var UserConfig = {
-            // 填写你的fc Lite地址
-            private_api_url: 'https://friends.252262.xyz/',
-            // 点击加载更多时，一次最多加载几篇文章，默认20
-            page_turning_number: 24,
-            // 头像加载失败时，默认头像地址
-            error_img: 'https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/logo/avatar.avif',
-        }
+    let UserConfig = {
+        private_api_url: 'https://friends.252262.xyz/',   // 填写你的友圈api（自定义域名）
+        page_turning_number: 15,
+        error_img: 'https://sdn.geekzu.org/avatar/57d8260dfb55501c37dde588e7c3852c',
+        sort_rule: 'created'
     }
 </script>
-<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/willow-god/Friend-Circle-Lite/main/fclite.min.css">
-<script src="https://fastly.jsdelivr.net/gh/willow-god/Friend-Circle-Lite/main/fclite.min.js"></script>
-
+<script type="text/javascript" src="/static/js/app.min.js"></script>
+<script type="text/javascript" src="/static/js/bundle.js"></script>
 
 <style>
   #cf-container {
@@ -58,20 +53,3 @@ comments: false
   color: #f4f4f4 !important;
   }
 </style>
-
-<div id="hexo-circle-of-friends-root"></div>
-<script>
-    let UserConfig = {
-        // 替换为你的API!!!
-        private_api_url: 'https://f.richfan.site/',
-        // 点击加载更多时，一次最多加载几篇文章，默认10
-        page_turning_number: 12,
-        // 头像加载失败时，默认头像地址
-        error_img: '/assets/r1.jpg',
-        // 进入页面时第一次的排序规则
-        sort_rule: 'created'
-    }
-</script>
-<link rel="stylesheet" href="/css/heoMainColor.css">
-<script type="text/javascript" src="/js/app.min.js"></script>
-<script type="text/javascript" src="/js/bundle.js"></script>
