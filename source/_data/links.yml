@@ -1,0 +1,63 @@
+banner_suffix:
+links:
+  - class_name: 推荐 # 分类名称
+    descr: 参与本站开发、提供设计灵感、捐助本站的优秀博主 # 分类简介
+    type: card # 显示方式，有两种 card / item
+    suffix:
+    link_list:
+      - name: 伍十七 # 友链名称
+        link: https://blog.efu.me # 友链地址
+        descr: An Open Source worker. # 友链简介
+        avatar: https://s3.qjqq.cn/47/660a7ece07609.webp # 显示头像
+        topimg: https://s3.qjqq.cn/47/660a7ece07609.webp # 如果是card模式下，将显示
+        tag: 博主
+        color: vip
+      - name: 张洪Heo # 友链名称
+        link: https://blog.zhheo.com/ # 友链地址
+        avatar: https://blog.zhheo.com/img/favicon4.0.webp # 显示头像
+        descr: 产品设计师、独立开发者、设计与科技领域自媒体博主 # 友链简介
+        topimg: https://blog.zhheo.com/img/favicon4.0.webp # 如果是card模式下，将显示
+        tag: 博主
+        color: vip
+      - name: LiuShen # 友链名称
+        link: https://blog.liushen.fun/ # 友链地址
+        avatar: https://blog.liushen.fun/favicon.ico # 显示头像
+        descr: 清羽飞扬的技术博客 | 提供建站教程、编程实战笔记、生活点滴，个人经验，融合技术开发与人文思考，定期更新深度指南与创意灵感，给大家提供更多帮助。 # 友链简介
+        topimg: https://blog.liushen.fun/favicon.ico # 如果是card模式下，将显示
+        tag: 博主
+        color: vip
+      - name: ❖星港◎Star☆ # 友链名称
+        link: https://blog.starsharbor.com/ # 友链地址
+        avatar: https://blog.starsharbor.com/img/avatar.webp # 显示头像
+        descr: 以博客记录生活与热爱！ # 友链简介
+        topimg: https://blog.starsharbor.com/img/avatar.webp # 如果是card模式下，将显示
+        tag: 博主
+        color: vip
+      - name: 叶泯希 # 友链名称
+        link: https://blog.418121.xyz/ # 友链地址
+        avatar: https://blog.418121.xyz/images/avatar.webp # 显示头像
+        descr: 叶泯希的个人博客,yeminxiblog,本意为了折腾，实际为了纪录点滴,很幸运能与你相遇，共创美好回忆 # 友链简介
+        topimg: https://blog.418121.xyz/images/avatar.webp # 如果是card模式下，将显示
+        tag: 博主
+        color: vip
+      - name: 放养平凡 # 友链名称
+        link: https://blog.btwoa.com/ # 友链地址
+        avatar: https://assets.btwoa.com/gif/author.gif # 显示头像
+        descr: 我仍相信人间滚烫 # 友链简介
+        topimg: https://assets.btwoa.com/gif/author.gif # 如果是card模式下，将显示
+        tag: 博主
+        color: vip
+      - name: BiuXin's Blog - 东方月初 # 友链名称
+        link: https://blog.biuxin.com/ # 友链地址
+        avatar: https://serv.200038.xyz/2024/11/06/027080.gif # 显示头像
+        descr: 我是一位正在努力学习的小白。感谢你的到访，希望这里可以有你需要的东西 # 友链简介
+        topimg: https://serv.200038.xyz/2024/11/06/027080.gif # 如果是card模式下，将显示
+        tag: 博主
+        color: vip
+      - name: 青桔气球 # 友链名称
+        link: https://blog.qjqq.cn/ # 友链地址
+        avatar: https://expression.qjqq.cn/1/65e92ca37b4e6.gif # 显示头像
+        descr: 欢迎来到青桔气球，这是一个专注于网络安全和科技生活分享的网站。在青桔气球上，您可以找到关于WordPress、Hexo、Typecho等平台的详细教程。 # 友链简介
+        topimg: https://expression.qjqq.cn/1/65e92ca37b4e6.gif # 如果是card模式下，将显示
+        tag: 博主
+        color: vip
