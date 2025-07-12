@@ -320,7 +320,7 @@ post:
     # local: local color / api: api color / ave: oss average color
     mode: api
     # api address / api 地址
-    api: https://img2color-coral.vercel.app/api?img=
+    api: https://color.252262.xyz/
     # Storage / 缓存时间
     time: 43200000
   footer:
@@ -548,7 +548,7 @@ footer:
     #   Copyright: /copyright/
 
   # 随机友链
-  randomlink: false # 随机友链
+  randomlink: true # 随机友链
 
   # 备案
   beian:
@@ -822,7 +822,7 @@ twikoo: # https://twikoo.js.org/
   envId: https://twikoo.252262.xyz/ # url: https://twikoo.sondy.top/
   region: # Environment locale, default is ap-shanghai, Tencent cloud environment fill ap-shanghai or ap-guangzhou; Vercel environment do not fill the.
   style: true # Use custom styles when turned on
-  accessToken: # AccessToken
+  accessToken: ffc890526 # AccessToken
   option: # twikoo option
 # Waline: https://solitude.js.org/comment/waline
 waline: # https://waline.js.org/
