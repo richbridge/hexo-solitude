@@ -501,10 +501,10 @@ rightside:
   enable: true
   percent: true
   hide:
-    enable: false
-    translate: false
-    mode: false
-    aside: false
+    enable: true
+    translate: true
+    mode: true
+    aside: true
 # --------------------------- start ---------------------------
 
 # --------------------------- start ---------------------------
@@ -544,18 +544,18 @@ footer:
 
   # 页脚信息文字
   links:
-    # - name: RSS
-    #   url: /atom.xml
-    # - name: License
-    #   url: https://github.com/everfu/hexo-theme-solitude/blob/main/LICENSE
-    #   icon:
-    #     - fas fa-copyright
-    #     - fab fa-creative-commons-by
-    #     - fab fa-creative-commons-nc
-    #     - fab fa-creative-commons-nd
-    # - name: boringbay
-    #   url: https://boringbay.com/
-    #   img: https://boringbay.com/api/badge/www.efu.me
+    - name: RSS
+      url: /atom.xml
+    - name: License
+      url: https://github.com/everfu/hexo-theme-solitude/blob/main/LICENSE
+      icon:
+        - fas fa-copyright
+        - fab fa-creative-commons-by
+        - fab fa-creative-commons-nc
+        - fab fa-creative-commons-nd
+    - name: boringbay
+      url: https://boringbay.com/
+      img: https://boringbay.com/api/badge/www.efu.me
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
