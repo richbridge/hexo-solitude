@@ -121,7 +121,7 @@ bangumi: # 追番设置
       enable: false
 
 ## Themes: https://hexo.io/themes/
-theme: solitude
+theme: AstraBay
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

@@ -2,3 +2,6 @@
 	path = themes/solitude
 	url = https://github.com/everfu/hexo-theme-solitude.git
 	branch = dev
+[submodule "themes/AstraBay"]
+	path = themes/AstraBay
+	url = https://github.com/Stars-harbor/AstraBay.git
