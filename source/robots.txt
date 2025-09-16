@@ -1,0 +1,10 @@
+User-agent: *
+
+Disallow: /archives/
+Disallow: /categories/
+Disallow: /tags/
+Disallow: /images/
+
+Allow: /
+
+Sitemap: https://richfan.eu.org/sitemap.xml
