@@ -101,7 +101,7 @@ hometop:
     sup: 置顶
     title: 樊尘刹记
     url: https://252262.xyz/
-    img: /img/default.avif
+    img: /img/bg.avif
     color: "none"
 # --------------------------- end ---------------------------
 
@@ -385,7 +385,7 @@ expire:
 # 首页文章配置信息
 index_post_list:
   direction: column # row / column
-  column: 3 # 2: 2 columns 3: 3 columns
+  column: 2 # 2: 2 columns 3: 3 columns
   cover: both
 # --------------------------- end ---------------------------
 
