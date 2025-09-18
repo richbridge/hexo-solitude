@@ -33,7 +33,7 @@
      const month = `${myDate.getMonth() + 1}`.padStart(2, '0');
      const day = `${myDate.getDate()}`.padStart(2, '0');
      const formattedDate = `${month}${day}`;
-     const historyDataUrl = `https://api.76.al/api/history/query?key=你的key`; //请到:https://api.76.al申请
+     const historyDataUrl = `https://api.nsmao.net/api/history/query?key=38OEwcJDe916pR7UzI2oaLEgVS`; //申请：https://api.nsmao.net
 
      try {
          const response = await fetch(historyDataUrl);
