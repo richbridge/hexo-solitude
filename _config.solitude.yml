@@ -43,7 +43,7 @@ nav:
       分类: /categories/ || fas fa-clone
       标签: /tags/ || fas fa-tags
     友链:
-      朋友圈: /moments/ || fas fa-wifi
+      朋友圈: /fcircle/ || fas fa-wifi
       友情链接: /links/ || fas fa-user-group
       宝藏博主: javascript:travelling() || fas fa-gift
     我的:
