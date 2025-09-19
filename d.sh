@@ -2,6 +2,10 @@
 
 echo -e "--------------------Deploy Begin --------------------"
 
+git submodule update --remote --merge source/_posts
+git submodule update --remote --merge themes/AstraBay
+git submodule update --remote --merge themes/solitude
+
 echo -e "-------------------Step 1 Generate-------------------"
 
 hexo bangumi -u && hexo algolia
