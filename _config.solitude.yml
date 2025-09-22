@@ -101,7 +101,7 @@ hometop:
     sup: 置顶
     title: 樊尘刹记
     url: https://252262.xyz/
-    img: /img/default.avif
+    img: /img/bg.avif
     color: "none"
 # --------------------------- end ---------------------------
 
@@ -124,7 +124,7 @@ aside:
     noSticky: "about"
     Sticky: "newestPost,allInfo"
   # 菜单栏位置(0: 左 1: 右)
-  position: 1 # Sidebar positioning(0: left 1: right)
+  position: 0 # Sidebar positioning(0: left 1: right)
 
   # --------------------------- start ---------------------------
   # Information card
@@ -241,7 +241,7 @@ post:
     # 版权
     copyright:
       enable: true
-      author: /img/logo.png # url
+      author: /img/avatar.avif # url
       # License
       # 许可证
       license: CC BY-NC-SA 4.0
@@ -385,7 +385,7 @@ expire:
 # 首页文章配置信息
 index_post_list:
   direction: column # row / column
-  column: 3 # 2: 2 columns 3: 3 columns
+  column: 2 # 2: 2 columns 3: 3 columns
   cover: both
 # --------------------------- end ---------------------------
 
@@ -439,7 +439,7 @@ right_menu:
 #  information
 # 复制信息
 copy:
-  enable: false
+  enable: true
   # Turn on Link copyright information after copying.
   # 复制后链接版权信息
   copyright:
@@ -451,7 +451,7 @@ copy:
 
 # --------------------------- start ---------------------------
 # Mermaid
-mermaid: true
+mermaid: false
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -501,10 +501,10 @@ rightside:
   enable: true
   percent: true
   hide:
-    enable: false
-    translate: false
-    mode: false
-    aside: false
+    enable: true
+    translate: true
+    mode: true
+    aside: true
 # --------------------------- start ---------------------------
 
 # --------------------------- start ---------------------------
@@ -544,15 +544,15 @@ footer:
 
   # 页脚信息文字
   links:
-    # - name: RSS
-    #   url: /atom.xml
-    # - name: License
-    #   url: https://github.com/everfu/hexo-theme-solitude/blob/main/LICENSE
-    #   icon:
-    #     - fas fa-copyright
-    #     - fab fa-creative-commons-by
-    #     - fab fa-creative-commons-nc
-    #     - fab fa-creative-commons-nd
+    - name: RSS
+      url: /atom.xml
+    - name: License
+      url: https://github.com/everfu/hexo-theme-solitude/blob/main/LICENSE
+      icon:
+        - fas fa-copyright
+        - fab fa-creative-commons-by
+        - fab fa-creative-commons-nc
+        - fab fa-creative-commons-nd
     # - name: boringbay
     #   url: https://boringbay.com/
     #   img: https://boringbay.com/api/badge/www.efu.me
@@ -664,8 +664,8 @@ highlight:
 lightbox: true
 # warning: Please select any one, but cannot be turned on at the same time.
 # 警告: 请任选其一，但不能同时开启。
-fancybox: true # fancybox
-mediumZoom: false # mediumZoom
+fancybox: false # fancybox
+mediumZoom: true # mediumZoom
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -742,6 +742,7 @@ extends:
   #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
     - <link rel="stylesheet" href="/css/schedule.css">
     - <link rel="stylesheet" href="/css/cardwechat.css">
+    - <link rel="stylesheet" href="/css/history.css">
 
   # Insert in body
   # 插入到 body
@@ -986,7 +987,7 @@ CDN:
     # katex_copytex:
     # lazyload:
     # medium_zoom:
-    # mermaid_js:
+    mermaid_js: https://cdn.jsdelivr.net/npm/mermaid@11.11.0/dist/mermaid.min.js
     # meting_js:
     # pace_js:
     # pjax:

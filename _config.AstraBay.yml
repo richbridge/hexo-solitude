@@ -124,7 +124,7 @@ aside:
     noSticky: "about"
     Sticky: "newestPost,allInfo"
   # 菜单栏位置(0: 左 1: 右)
-  position: 1 # Sidebar positioning(0: left 1: right)
+  position: 0 # Sidebar positioning(0: left 1: right)
 
   # --------------------------- start ---------------------------
   # Information card
