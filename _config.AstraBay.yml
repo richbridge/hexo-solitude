@@ -314,7 +314,7 @@ post:
     # local: local color / api: api color / ave: oss average color
     mode: local
     # api address / api 地址
-    api: https://api.qjqq.cn/api/Imgcolor?img=
+    api: https://color.252262.xyz/api?img=
     # Storage / 缓存时间
     time: 43200000
   footer:
